@@ -115,6 +115,7 @@ ul {
     
     .header-title, p {
         margin: auto;
+        font-size: 100%;
         padding: 15px 0 25px 0;
         width: 90%;
     }
