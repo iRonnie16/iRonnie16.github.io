@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333838;
+    color: #E0DEDE;
+}
+
+header {
+    margin-top: 30px;
+    background: linear-gradient(rgba(30,30,30,0.83), 
+    rgba(31,31,31,1)), url(headersmall.png) fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0px 1px 25px #D35656;
+    /*height: 500px;*/
+}
+
+/*       HEADER            */
+
+.name {
+    letter-spacing: 6px;
+    padding: 25px 0 0 90px;
+    width: 500px;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 400;
+    margin-right: auto;
+    font-family: 'Alegreya Sans SC', sans serif;
+}
+
+  
+
+.surname {
+    font-weight: 100;
+    font-family: 'Alegreya Sans SC', sans serif;
+}
+
+a.email {
+    margin-left: auto;
+    display: inline-block;
+    letter-spacing: 6px;
+    padding: 20px 80px 0 0;
+    font-weight: normal;
+    font-family: 'Alegreya Sans SC', sans serif;
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 12px;
+    color: #D35656;
+}
+
+h3 {
+    font-family: 'Alegreya Sans SC', sans serif;
+    padding: 50px 0 0 120px;
+    margin-right: auto;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 400;
+    width: 55%;
+}
+
+p {
+    font-family: Montserrat, Helvetica, sans-serif;
+    padding: 35px 0 100px 120px;
+    font-weight: 200;
+    text-align: center;
+    margin-right: auto;
+    font-size: 200%;
+    width: 55%;
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        background-image: none;
+        background-color: rgba(31,31,31,1);
+        width: 100%;
+        text-align: center;
+    }
+
+    h3, p {
+        margin: auto;
+        padding: 30px 0 30px 0;
+        width: 70%;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .name {
+        display: block !important;
+        text-align: center !important;
+        width: 100% !important;
+        margin: 40px auto !important;
+        padding: 40px 0 !important;
+    } 
+
+    ul{
+        display: inline;
+    }
+
+    a.email {
+        display: none;
+    }
+}
