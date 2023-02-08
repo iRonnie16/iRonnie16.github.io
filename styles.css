@@ -31,7 +31,7 @@ header {
     letter-spacing: 6px;
     padding: 25px 0 0 90px;
     text-align: left;
-    font-size: 4dvw;
+    font-size: 50px;
     font-weight: 400;
     margin-right: auto;
     font-family: 'Alegreya Sans SC', sans serif;
@@ -63,7 +63,7 @@ h3 {
     padding: 50px 0 0 120px;
     margin-right: auto;
     text-align: center;
-    font-size: 300%;
+    font-size: 4dvw;
     font-weight: 400;
     width: 55%;
 }
