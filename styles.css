@@ -105,23 +105,22 @@ ul {
 
 @media only screen and (max-width: 900px) {
     .name {
-        display: block !important;
-        text-align: center !important;
-        width: 100% !important;
-        margin: 40px auto !important;
-        padding: 40px 0 !important;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 40px auto;
+        padding: 40px 0;
         width: 90%;
     } 
     
     .header-title, p {
         margin: auto;
-        font-size: 220%;
         padding: 30px 0 30px 0;
         width: 90%;
     }
     
-    p {
-        font-size: 100% !important;   
+    .header-title {
+        font-size: 220%;
     }
 
     ul{
