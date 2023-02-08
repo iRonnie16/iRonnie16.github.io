@@ -15,7 +15,7 @@ header {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
-    position: fixed;
+    position: relative;
     right: 0;
     top: 0;
     text-align: center;
