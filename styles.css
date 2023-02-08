@@ -80,10 +80,10 @@ p {
 
 @media only screen and (max-width: 1200px) {
     header {
-        background-image: none;
-        background-color: rgba(31,31,31,1);
-        width: 100%;
-        text-align: center;
+        background: linear-gradient(rgba(30,30,30,0.86), 
+    rgba(31,31,31,1)), url(headercenter.png) fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
     }
 
     .header-title, p {
