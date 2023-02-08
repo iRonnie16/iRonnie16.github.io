@@ -115,6 +115,7 @@ ul {
     
     h3, p {
         margin: auto;
+        font-size: 14px;
         padding: 30px 0 30px 0;
         width: 90%;
     }
